@@ -61,6 +61,13 @@ Fusce congue cursus volutpat. Praesent at accumsan urna. Nunc elit dolor, tempus
 		</div>
 	</div>
 </section>
+<section id = "process">
+	<div class = "container-fluid">
+		<div class = "row vertical-align">
+			
+		</div>
+	</div>
+</section>
 
 <?php get_footer(); ?>
 
