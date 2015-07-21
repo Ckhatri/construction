@@ -27,3 +27,41 @@ body header .container .row .menu ul li {
 body header .container .row .menu ul .active {
   color: #fbb733;
 }
+body #mastHead {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  overflow: hidden;
+  min-height: 600px;
+  background: url('../img/clouds.jpeg') no-repeat center;
+  background-size: cover;
+  --webkit-backrgound-size: cover;
+  position: relative;
+}
+body #mastHead .mast {
+  position: relative;
+  color: #4f646f;
+  height: 100%;
+}
+body #mastHead .mast .row {
+  height: 100%;
+}
+body #mastHead .mast .vertical-align {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+body #mastHead .mast h1 {
+  font-size: 4em;
+}
+body #mastHead .mast p {
+  font-size: 2em;
+}
+body #mastHead .mast span {
+  color: #fbb733;
+}
+body #mastHead .mast button {
+  background-color: #4f646f;
+  color: #fbb733;
+  border-radius: 0px;
+}
