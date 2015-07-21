@@ -152,6 +152,15 @@ body #offer .container .infobox {
 body #offer .container .infobox i {
   color: #4f646f;
 }
+body #projects {
+  padding-right: 0;
+  padding-left: 0;
+  background-color: #4f646f;
+}
+body #projects img {
+  width: 100%;
+  border: 3px solid #4f646f;
+}
 body footer {
   padding-top: 10px;
   background-color: #121509;

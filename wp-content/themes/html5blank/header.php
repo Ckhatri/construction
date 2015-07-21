@@ -27,9 +27,7 @@
 					<ul class = "text-uppercase">
 						<li class = "active">Home</li>
 						<li>Company</li>
-						<li>Services</li>
 						<li>Projects</li>
-						<li>Blog</li>
 						<li>Contact</li>
 					</ul>
 				</div>
