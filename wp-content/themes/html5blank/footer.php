@@ -5,9 +5,9 @@
 			<div class = "col-md-4">
 				<img src="http://placehold.it/150x75">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae commodo arcu. Morbi bibendum a tellus nec gravida. Pellentesque et libero non nisi vehicula egestas. </p>
-				<i class="fa fa-twitter fa-2x"></i>
-				<i class="fa fa-facebook fa-2x"></i>
-				<i class="fa fa-google fa-2x"></i>
+				<a href="#"><i class="fa fa-twitter fa-2x "></i></a>
+				<a href="#"><i class="fa fa-facebook fa-2x "></i></a>
+				<a href="#"><i class="fa fa-google fa-2x "></i></a>
 			</div>
 			<div class = "col-md-4"></div>
 		</div>

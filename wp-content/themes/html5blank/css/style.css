@@ -162,3 +162,6 @@ body footer i {
   margin-left: 10px;
   margin-right: 10px;
 }
+body footer a {
+  color: inherit;
+}
