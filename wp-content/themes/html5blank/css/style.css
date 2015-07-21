@@ -132,7 +132,7 @@ body #review .row {
   height: 100%;
 }
 body #offer .container {
-  height: 500px;
+  height: auto;
 }
 body #offer .container .row h1 {
   font-size: 3em;
@@ -151,4 +151,14 @@ body #offer .container .infobox {
 }
 body #offer .container .infobox i {
   color: #4f646f;
+}
+body footer {
+  padding-top: 10px;
+  background-color: #121509;
+  height: auto;
+  color: #fafafa;
+}
+body footer i {
+  margin-left: 10px;
+  margin-right: 10px;
 }
