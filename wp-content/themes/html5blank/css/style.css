@@ -28,6 +28,9 @@ body header .container .row .menu ul li {
   margin-left: 10px;
   margin-right: 10px;
 }
+body header .container .row .menu ul li:hover {
+  cursor: pointer;
+}
 body header .container .row .menu ul .active {
   color: #fbb733;
 }
