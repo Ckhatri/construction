@@ -113,6 +113,24 @@ body #process .processBox h1 span {
 body #process .processBox p {
   font-size: 1em;
 }
+body #review {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 500px;
+  padding-bottom: 100px;
+  background: url('../img/clouds.jpeg') no-repeat center;
+  background-size: cover;
+  --webkit-backrgound-size: cover;
+  position: relative;
+}
+body #review .container {
+  height: 500px;
+}
+body #review .row {
+  height: 100%;
+}
 body #offer .container {
   height: 500px;
 }

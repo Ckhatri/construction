@@ -36,48 +36,38 @@ Fusce congue cursus volutpat. Praesent at accumsan urna. Nunc elit dolor, tempus
 		</div>
 	</div>
 </section>
+<section id = "review">
+	<div class = "container">
+		<div class = "row vertical-align">
+		<?php for ($i=0; $i < 3; $i++) { 
+		?>
 
+			<div class = "col-md-4 text-center">
+				<h1>WHAT PEOPLE SAY</h1>
+				<hr/>
+				<i class="fa fa-quote-left fa-2x"></i>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae commodo arcu. Morbi bibendum a tellus nec gravida. Pellentesque et libero non nisi vehicula egestas. Pellentesque imperdiet ullamcorper eleifend. Ut quis diam nunc. Duis a rhoncus quam, vitae dictum leo. Donec ac iaculis nulla. Pellentesque hendrerit maximus nibh, in malesuada lectus ullamcorper et.
+
+			Fusce congue cursus volutpat. Praesent at accumsan urna. Nunc elit dolor, tempus eu feugiat nec, tempus mattis sapien. In faucibus vehicula mollis. Vivamus ultricies risus quis ipsum pulvinar gravida. Quisque id lobortis lectus. Duis non arcu nec mauris sagittis dapibus eget tempus leo.</p>
+				<i class="fa fa-quote-right fa-2x"></i>
+				<p><strong>John Doe</strong></p>
+			</div>
+		<?php } ?>
+		</div>
+	</div>
+</section>
 <section id="offer">
 	<div class = "container">
 		<div class = "row top text-center text-uppercase">
 			<div class = "col-md-12">
-				<h1>What We Offer</h1>
-				<p>Always dedicated and Devoted</p>
+				<h1>Our Team</h1>
+				<p>Hire our Professionals</p>
 				<hr/>
 			</div>
 		</div>
 		<div class = "row text-center">
-			<div class = "col-md-4 infobox">
-				<i class="fa fa-briefcase fa-4x"></i>
-				<h1>BUILDING</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae commodo arcu. Morbi bibendum a tellus nec gravida. Pellentesque et libero non nisi vehicula egestas. </p>
-			</div>
-			<div class = "col-md-4 infobox">
-				<i class="fa fa-briefcase fa-4x"></i>
-				<h1>BUILDING</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae commodo arcu. Morbi bibendum a tellus nec gravida. Pellentesque et libero non nisi vehicula egestas. </p>
-			</div>
-			<div class = "col-md-4 infobox">
-				<i class="fa fa-briefcase fa-4x"></i>
-				<h1>BUILDING</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae commodo arcu. Morbi bibendum a tellus nec gravida. Pellentesque et libero non nisi vehicula egestas. </p>
-			</div>
-		</div>
-		<div class = "row text-center">
-			<div class = "col-md-4 infobox">
-				<i class="fa fa-briefcase fa-4x"></i>
-				<h1>BUILDING</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae commodo arcu. Morbi bibendum a tellus nec gravida. Pellentesque et libero non nisi vehicula egestas. </p>
-			</div>
-			<div class = "col-md-4 infobox">
-				<i class="fa fa-briefcase fa-4x"></i>
-				<h1>BUILDING</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae commodo arcu. Morbi bibendum a tellus nec gravida. Pellentesque et libero non nisi vehicula egestas. </p>
-			</div>
-			<div class = "col-md-4 infobox">
-				<i class="fa fa-briefcase fa-4x"></i>
-				<h1>BUILDING</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae commodo arcu. Morbi bibendum a tellus nec gravida. Pellentesque et libero non nisi vehicula egestas. </p>
+			<div class = "col-md-12 text-center">
+				<img src="/construction/wp-content/themes/html5blank/img/people.jpg">
 			</div>
 		</div>
 	</div>
