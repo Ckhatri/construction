@@ -9,8 +9,8 @@
 				<div class = "col-md-8">
 					<h1><span>"NAME"</span><br/> CONSTRUCTION</h1>
 					<p>The Best Construction Company in the World</p>
-					<button class = "btn btn-lg">Our History</button>
-					<button class = "btn btn-lg">View Projects</button>
+					<a href="<?php bloginfo('wpurl'); ?>/about/"><button class = "btn btn-lg">About Us</button></a>
+					<a href="<?php bloginfo('wpurl'); ?>/projects/"><button class = "btn btn-lg">View Projects</button></a>
 				</div>
 				<!-- Spacer -->
 				<div class = "col-md-2">
@@ -33,7 +33,7 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae commodo arcu. Morbi bibendum a tellus nec gravida. Pellentesque et libero non nisi vehicula egestas. Pellentesque imperdiet ullamcorper eleifend. Ut quis diam nunc. Duis a rhoncus quam, vitae dictum leo. Donec ac iaculis nulla. Pellentesque hendrerit maximus nibh, in malesuada lectus ullamcorper et.
 
 Fusce congue cursus volutpat. Praesent at accumsan urna. Nunc elit dolor, tempus eu feugiat nec, tempus mattis sapien. In faucibus vehicula mollis. Vivamus ultricies risus quis ipsum pulvinar gravida. Quisque id lobortis lectus. Duis non arcu nec mauris sagittis dapibus eget tempus leo.</p>
-				<button class = "btn btn-lg">Our History</button>
+				<a href="<?php bloginfo('wpurl'); ?>/about/"><button class = "btn btn-lg">About Us</button></a>
 			</div>
 		</div>
 	</div>

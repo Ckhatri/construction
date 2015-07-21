@@ -174,3 +174,12 @@ body footer i {
 body footer a {
   color: inherit;
 }
+body #contact {
+  height: 400px;
+}
+body #contact .container {
+  height: 100%;
+}
+body #contact .row {
+  height: 100%;
+}
