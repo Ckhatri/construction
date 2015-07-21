@@ -1,0 +1,29 @@
+body {
+  background-color: #fafafa;
+}
+body .vertical-align {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+body header {
+  width: 100%;
+}
+body header .container .row {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+body header .container .row h1 {
+  display: inline;
+}
+body header .container .row .menu ul {
+  list-style-type: none;
+}
+body header .container .row .menu ul li {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+body header .container .row .menu ul .active {
+  color: #fbb733;
+}

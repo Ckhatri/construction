@@ -1,0 +1,44 @@
+@white: #FAFAFA;
+@skyblue: #E3F2FD;
+@black: #121509;
+@yellow: #FBB733;
+@blue: #4F646F;
+
+
+body {
+	background-color: @white;
+	.vertical-align {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+	}
+	header {
+		width: 100%;
+		.container {
+			.row {
+				padding-top: 15px;
+				padding-bottom: 15px;
+
+				h1 {
+					display: inline;
+				}
+
+				.menu {
+					ul {
+						list-style-type: none;
+						li {
+							display: inline;
+							margin-left: 10px;
+							margin-right: 10px;
+						}
+
+						.active {
+							color: @yellow;
+						}
+					}
+
+				}
+			}
+		}
+	}
+}
