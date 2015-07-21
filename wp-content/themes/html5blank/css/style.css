@@ -65,3 +65,20 @@ body #mastHead .mast button {
   color: #fbb733;
   border-radius: 0px;
 }
+body #who .container-fluid {
+  height: 500px;
+}
+body #who .container-fluid .row {
+  height: 100%;
+}
+body #who .container-fluid .row h1 {
+  font-size: 3em;
+  color: #fbb733;
+}
+body #who .container-fluid .row h2 {
+  font-size: 2em;
+}
+body #who .container-fluid .row button {
+  background-color: #fbb733;
+  border-radius: 0px;
+}
