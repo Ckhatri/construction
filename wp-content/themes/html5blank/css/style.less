@@ -105,4 +105,38 @@ body {
 			}
 		}
 	}
+
+	#process {
+		height: 100%;
+		width: auto;
+		max-width: 100%;
+		overflow: hidden;
+		max-height: 500px;
+		padding-bottom: 100px;
+		background: url('../img/clouds.jpeg') no-repeat center;
+		background-size: cover;
+		--webkit-backrgound-size: cover;
+		position: relative;
+
+		.row {
+			height: 100%;
+		}
+
+		.processBox {
+			margin-bottom: 50px;
+			height: 100px;
+
+			h1 {
+				font-size: 3em;
+				color: @yellow;
+				span {
+					color: @blue;
+				}
+			}
+
+			p {
+				font-size: 1em;
+			}
+		}
+	}
 }

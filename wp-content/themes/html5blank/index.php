@@ -62,9 +62,36 @@ Fusce congue cursus volutpat. Praesent at accumsan urna. Nunc elit dolor, tempus
 	</div>
 </section>
 <section id = "process">
-	<div class = "container-fluid">
+	<div class = "container">
 		<div class = "row vertical-align">
-			
+			<div class = "col-md-2 processBox text-center">
+				<h1><span>01 <i class="fa fa-long-arrow-right fa-1x"></i></span></h1>
+				<h1>PROCESS</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae commodo arcu. Morbi bibendum a tellus nec gravida. Pellentesque et libero non nisi vehicula egestas. </p>
+			</div>
+			<!-- Spacer -->
+			<div class = "col-md-1"></div>
+			<div class = "col-md-2 processBox text-center">
+				<h1><span>02 <i class="fa fa-long-arrow-right fa-1x"></i></span></h1>
+				<h1>PROCESS</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae commodo arcu. Morbi bibendum a tellus nec gravida. Pellentesque et libero non nisi vehicula egestas. </p>
+			</div>
+			<!-- Spacer -->
+			<div class = "col-md-1"></div>
+			<div class = "col-md-2 processBox text-center">
+				<h1><span>03 <i class="fa fa-long-arrow-right fa-1x"></i></span></h1>
+				<h1>PROCESS</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae commodo arcu. Morbi bibendum a tellus nec gravida. Pellentesque et libero non nisi vehicula egestas. </p>
+			</div>
+			<!-- Spacer -->
+			<div class = "col-md-1"></div>
+			<div class = "col-md-2 processBox text-center">
+				<h1><span>04 <i class="fa fa-long-arrow-right fa-1x"></i></span></h1>
+				<h1>PROCESS</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae commodo arcu. Morbi bibendum a tellus nec gravida. Pellentesque et libero non nisi vehicula egestas. </p>
+			</div>
+			<!-- Spacer -->
+			<div class = "col-md-1"></div>
 		</div>
 	</div>
 </section>

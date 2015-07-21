@@ -80,3 +80,32 @@ body #who .container-fluid .row button {
   background-color: #fbb733;
   border-radius: 0px;
 }
+body #process {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 500px;
+  padding-bottom: 100px;
+  background: url('../img/clouds.jpeg') no-repeat center;
+  background-size: cover;
+  --webkit-backrgound-size: cover;
+  position: relative;
+}
+body #process .row {
+  height: 100%;
+}
+body #process .processBox {
+  margin-bottom: 50px;
+  height: 100px;
+}
+body #process .processBox h1 {
+  font-size: 3em;
+  color: #fbb733;
+}
+body #process .processBox h1 span {
+  color: #4f646f;
+}
+body #process .processBox p {
+  font-size: 1em;
+}
