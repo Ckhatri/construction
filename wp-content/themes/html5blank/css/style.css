@@ -6,6 +6,10 @@ body .vertical-align {
   align-items: center;
   flex-direction: row;
 }
+body hr {
+  width: 10%;
+  border: 1px solid #fbb733;
+}
 body header {
   width: 100%;
 }
@@ -108,4 +112,25 @@ body #process .processBox h1 span {
 }
 body #process .processBox p {
   font-size: 1em;
+}
+body #offer .container {
+  height: 500px;
+}
+body #offer .container .row h1 {
+  font-size: 3em;
+  color: #fbb733;
+}
+body #offer .container .row p {
+  font-size: 1.1em;
+}
+body #offer .container .top {
+  margin-top: 25px;
+}
+body #offer .container .infobox {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: auto;
+}
+body #offer .container .infobox i {
+  color: #4f646f;
 }

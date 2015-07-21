@@ -12,6 +12,12 @@ body {
 		align-items: center;
 		flex-direction: row;
 	}
+
+	hr {
+		width: 10%;
+		border: 1px solid @yellow;
+	}
+
 	header {
 		width: 100%;
 		.container {
@@ -137,6 +143,36 @@ body {
 			p {
 				font-size: 1em;
 			}
+		}
+	}
+
+	#offer {
+		.container {
+			height: 500px;
+			.row {
+				h1 {
+					font-size: 3em;
+					color: @yellow;
+				}
+				p {
+					font-size: 1.1em
+				}
+
+			}
+			.top {
+				margin-top: 25px;
+			}
+
+		.infobox {
+			margin-top: 20px;
+			margin-bottom: 20px;
+			height: auto;
+
+			i {
+				color: @blue;
+			}
+		}
+
 		}
 	}
 }
