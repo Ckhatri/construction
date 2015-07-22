@@ -193,3 +193,9 @@ body #contact .container {
 body #contact .row {
   height: 100%;
 }
+body #map {
+  width: 100%;
+}
+body #map img {
+  width: 100%;
+}
