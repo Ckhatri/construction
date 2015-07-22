@@ -17,18 +17,18 @@
 	<div class = "container">
 		<div class = "row vertical-align">
 			<!-- Spacer -->
-			<div class = "col-md-2">
+			<div class = "col-xs-2 col-s-0 col-md-2 col-lg-2">
 			</div>
-			<div class = "col-md-4">
+			<div class = "col-xs-4 col-s-4 col-md-4 col-lg-4">
 				<img src="http://placehold.it/150x75">
 			</div>
-			<div class = "col-md-6">
+			<div class = "col-xs-8 col-s-8 col-md-6 col-lg-6">
 				<div class ="menu">
 					<ul class = "text-uppercase">
-						<li class = "active">Home</li>
-						<li>Company</li>
-						<li>Projects</li>
-						<li>Contact</li>
+						<a href="<?php bloginfo('wpurl'); ?>"><li id = "homeMenu">Home</li></a>
+						<a href="<?php bloginfo('wpurl'); ?>/about/"><li id = "aboutMenu">Company</li></a>
+						<a href="<?php bloginfo('wpurl'); ?>/projects/"><li id = "projectsMenu">Projects</li></a>
+						<a href="<?php bloginfo('wpurl'); ?>/contact/"><li id = "contactMenu">Contact</li></a>
 					</ul>
 				</div>
 			</div>

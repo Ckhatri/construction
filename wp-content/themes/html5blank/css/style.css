@@ -23,6 +23,10 @@ body header .container .row h1 {
 body header .container .row .menu ul {
   list-style-type: none;
 }
+body header .container .row .menu ul a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
 body header .container .row .menu ul li {
   display: inline;
   margin-left: 10px;
@@ -121,7 +125,7 @@ body #review {
   width: auto;
   max-width: 100%;
   overflow: hidden;
-  max-height: 500px;
+  height: auto;
   padding-bottom: 100px;
   background: url('../img/clouds.jpeg') no-repeat center;
   background-size: cover;
@@ -143,6 +147,9 @@ body #offer .container .row h1 {
 }
 body #offer .container .row p {
   font-size: 1.1em;
+}
+body #offer .container img {
+  width: 100%;
 }
 body #offer .container .top {
   margin-top: 25px;
