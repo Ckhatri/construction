@@ -199,3 +199,19 @@ body #map {
 body #map img {
   width: 100%;
 }
+body #form .container-fluid .row {
+  height: 500px;
+  font-size: 2em;
+}
+body #form .container-fluid .row h1 {
+  font-size: 3em;
+  color: #fbb733;
+}
+body #form .container-fluid .row h2 {
+  font-size: 2em;
+}
+body #form .container-fluid .row button {
+  margin-top: 15px;
+  background-color: #fbb733;
+  border-radius: 0px;
+}

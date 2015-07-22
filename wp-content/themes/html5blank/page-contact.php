@@ -47,4 +47,16 @@
 			</div>
 		</div>
 </section>
+
+<section id = "form">
+	<div class = "container-fluid">
+		<div class = "row text-center vertical-align">
+			<div class = "col-xs-12 col-s-12 col-md-12 col-lg-12">
+				<h1>Send a Message</h1>
+				<hr/>
+				<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 1 ); } ?>
+			</div>
+		</div>
+	</div>
+</section>
 <?php get_footer(); ?>
